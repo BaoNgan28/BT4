@@ -142,13 +142,12 @@
             // 
             // cbb_ChuyenNganh
             // 
-            this.cbb_ChuyenNganh.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.cbb_ChuyenNganh.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.cbb_ChuyenNganh.BackColor = System.Drawing.Color.White;
+            this.cbb_ChuyenNganh.ForeColor = System.Drawing.SystemColors.Desktop;
             this.cbb_ChuyenNganh.Items.AddRange(new object[] {
             "Công Nghệ Thông Tin",
-            "Cơ Khí",
             "Quản trị kinh doanh",
-            "Kế Toán"});
+            "Ngôn Ngữ Anh"});
             this.cbb_ChuyenNganh.Location = new System.Drawing.Point(140, 160);
             this.cbb_ChuyenNganh.Name = "cbb_ChuyenNganh";
             this.cbb_ChuyenNganh.Size = new System.Drawing.Size(233, 24);
@@ -406,4 +405,5 @@
         private System.Windows.Forms.Panel panel2;
     }
 }
+
 
