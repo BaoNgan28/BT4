@@ -17,17 +17,17 @@ namespace bt4
             return new List<Student>
             {
                 new Student { maSinhVien = "SV001", hoTen = "Nguyễn Thanh Bảo Ngân", gioiTinh = 1, diemTB = 8.5f, chuyenNganh = "Công Nghệ Thông Tin" },
-                new Student { maSinhVien = "SV002", hoTen = "Trần Thị Bích", gioiTinh = 0, diemTB = 7.2f, chuyenNganh = "Kế Toán" },
-                new Student { maSinhVien = "SV003", hoTen = "Lê Hoàng Cường", gioiTinh = 1, diemTB = 9.0f, chuyenNganh = "Công Nghệ Thông Tin" },
-                new Student { maSinhVien = "SV004", hoTen = "Phạm Minh Hạnh", gioiTinh = 0, diemTB = 6.5f, chuyenNganh = "Quản trị kinh doanh" },
-                new Student { maSinhVien = "SV005", hoTen = "Hoàng Tuấn Tú", gioiTinh = 1, diemTB = 5.8f, chuyenNganh = "Cơ Khí" }
+                new Student { maSinhVien = "SV002", hoTen = "Trần Thị Thảo", gioiTinh = 0, diemTB = 7.2f, chuyenNganh = "Quản trị kinh doanh" },
+                new Student { maSinhVien = "SV003", hoTen = "Hoàng Tuấn Cường", gioiTinh = 1, diemTB = 9.0f, chuyenNganh = "Công Nghệ Thông Tin" },
+                new Student { maSinhVien = "SV004", hoTen = "Đào Thị Trang", gioiTinh = 0, diemTB = 6.5f, chuyenNganh = "Quản trị kinh doanh" },
+                new Student { maSinhVien = "SV005", hoTen = "Lê Hoàng Tú ", gioiTinh = 1, diemTB = 5.8f, chuyenNganh = "Ngôn Ngữ Anh" }
             };
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cbb_ChuyenNganh.SelectedIndex = 0;
-            rdo_Nam.Checked = true;
+            cbb_ChuyenNganh.SelectedIndex = 1;
+            rdo_Nu.Checked = true;
 
             dataGrv.Rows.Clear();
             List<Student> students = add_MauData();
@@ -185,4 +185,5 @@ namespace bt4
 
         private void btn_test_Click(object sender, EventArgs e) { }
     }
+
 }
